@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "_id": "admin-reset-id-1766121536357",
+      "name": "Admin User",
+      "email": "rbyuvanvk26@gmail.com",
+      "password": "$2a$10$RyJf0runYGbYFl8EGtCZz.VqM84EJaXwPYV5gAfDpxoXxgIy93JLq",
+      "role": "policymaker",
+      "location": {
+        "state": "Delhi",
+        "district": "New Delhi"
+      },
+      "createdAt": "2025-12-19T05:18:56.357Z"
+    },
+    {
+      "_id": "83f735a0-e692-415e-9f24-e6db2b391d7f",
+      "name": "Prem",
+      "email": "u1@gmail.com",
+      "password": "$2a$10$72w92.j1L1VwMcE6udT50OWuGOzazgANdVFFnl/pJzA4q781c9RBm",
+      "location": {
+        "state": "Tamil Nadu",
+        "district": "Kanchipuram"
+      },
+      "cropDetails": [],
+      "role": "farmer",
+      "trustScore": 500,
+      "creditBadge": "Bronze",
+      "createdAt": "2025-12-19T05:51:07.619Z"
+    },
+    {
+      "_id": "81099f28-b5cb-4d66-b9f5-449c90511bb6",
+      "name": "Dr. Ramya A",
+      "email": "ramya@gmail.com",
+      "password": "$2a$10$QXFr4hvR2zGD6WFFZn2xa.fKlu2e4ozPXstmyO35SxlpJwJO9XbGm",
+      "location": {
+        "state": "Tamil Nadu",
+        "district": "Kanchipuram"
+      },
+      "cropDetails": [],
+      "role": "buyer",
+      "trustScore": 500,
+      "creditBadge": "Bronze",
+      "createdAt": "2025-12-19T06:10:50.740Z"
+    },
+    {
+      "_id": "47b63ff6-6ae3-430a-a5bf-8ef21beb225d",
+      "name": "Virat",
+      "email": "virat@gmail.com",
+      "password": "$2a$10$hc9F38RJweUtbWPV.YKpgu9c2j8QjEUQAa2iy37enno8kZkzjf7Va",
+      "location": {
+        "state": "Tamil Nadu",
+        "district": "Erode"
+      },
+      "cropDetails": [],
+      "role": "farmer",
+      "trustScore": 500,
+      "creditBadge": "Bronze",
+      "createdAt": "2025-12-23T05:29:58.705Z"
+    },
+    {
+      "_id": "78ae793c-518a-4487-9318-e64077b0885a",
+      "name": "dhoni",
+      "email": "dhoni@gmail.com",
+      "password": "$2a$10$gPGOajCN0HqjZzbB4mLREOI9Mpa93NoGGH1qIGrpT.e4LXJlRUUaC",
+      "location": {
+        "state": "Jharkhand",
+        "district": "Ranchi"
+      },
+      "cropDetails": [],
+      "role": "processor",
+      "trustScore": 500,
+      "creditBadge": "Bronze",
+      "createdAt": "2025-12-23T05:38:06.353Z"
+    }
+  ],
+  "bids": [],
+  "shipments": [],
+  "contracts": [],
+  "produce": [
+    {
+      "id": "f94d6444-468a-4e07-ac29-9bfa7eee53eb",
+      "farmerId": "guest",
+      "farmerName": "Guest Farmer",
+      "cropName": "Soybean",
+      "quantity": 76,
+      "pricePerQuintal": 4850,
+      "type": "Conventional",
+      "certificateNumber": null,
+      "verificationStatus": "Not Applicable",
+      "createdAt": "2025-12-09T12:37:40.573Z"
+    },
+    {
+      "id": "3eceaedb-550d-4c15-a5d6-ce8bb2e26d66",
+      "farmerId": "guest",
+      "farmerName": "Guest Farmer",
+      "cropName": "Mustard",
+      "quantity": 1,
+      "pricePerQuintal": 1,
+      "type": "Inorganic",
+      "certificateNumber": null,
+      "verificationStatus": "Not Applicable",
+      "createdAt": "2025-12-09T05:11:17.273Z"
+    },
+    {
+      "id": "94418b58-a243-42ab-9646-d6e240181426",
+      "farmerId": "guest",
+      "farmerName": "Guest Farmer",
+      "cropName": "Mustard",
+      "quantity": 45,
+      "pricePerQuintal": 2600,
+      "type": "Organic",
+      "certificateNumber": "NPOP/NAB/0026 ",
+      "verificationStatus": "Verified",
+      "createdAt": "2025-12-09T02:10:24.870Z"
+    }
+  ]
+}
